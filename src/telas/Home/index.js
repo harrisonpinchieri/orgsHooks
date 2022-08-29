@@ -5,9 +5,7 @@ import Topo from './componentes/Topo';
 
 
 export default function Home(){
-    return <>
-    <Topo />
-    <Produtores/>
-    </> 
+    return <Produtores topo={Topo}/>
+     
 
 }
