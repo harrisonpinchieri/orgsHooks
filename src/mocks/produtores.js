@@ -1,4 +1,4 @@
-import green from '../assets/produtores/green.png';
+import green from  '../assets/produtores/green.png';
 import salad from '../assets/produtores/salad.png';
 import jennyJack from '../assets/produtores/jenny-jack.png';
 import grow from '../assets/produtores/grow.png';
@@ -13,35 +13,35 @@ const produtores ={
     lista:[
         {
             nome: "Green",
-            image:  green,
+            imagem: green,
             distancia: `${gerarNumeroAleatorio(1,500)}m`,
             estrelas: gerarNumeroAleatorio(1,5),
         },
 
         {
             nome: "Salad",
-            image:  salad,
+            imagem: salad,
             distancia: `${gerarNumeroAleatorio(1,500)}m`,
             estrelas: gerarNumeroAleatorio(1,5),
         },
         {
             nome: "Jeny Jack Farm",
-            image:  jennyJack,
+            imagem: jennyJack,
             distancia: `${gerarNumeroAleatorio(1,500)}m`,
             estrelas: gerarNumeroAleatorio(1,5),
         },
         {
             nome: "Grow",
-            image:  grow,
+            imagem: grow,
             distancia: `${gerarNumeroAleatorio(1,500)}m`,
             estrelas: gerarNumeroAleatorio(1,5),
         },
         {
             nome: "Potager",
-            image:  potager,
+            imagem: potager,
             distancia: `${gerarNumeroAleatorio(1,500)}m`,
             estrelas: gerarNumeroAleatorio(1,5),
-        },
+        }
 
     ]
 }
